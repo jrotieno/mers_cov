@@ -1,0 +1,68 @@
+{
+  "schemaVersion": "3.0.0",
+  "files": {
+    "changelog": "CHANGELOG.md",
+    "readme": "README.md",
+    "reference": "reference.fasta",
+    "pathogenJson": "pathogen.json",
+    "genomeAnnotation": "genome_annotation.gff3",
+    "treeJson": "tree.json"
+  },
+  "attributes": {
+    "name": "MERS-CoV (EMC/2012 reference)",
+    "reference name": "Middle East respiratory syndrome-related coronavirus isolate HCoV-EMC/2012, complete genome",
+    "reference accession": "NC_019843.3",
+    "reference length": 30119,
+    "created": "2025-08-13T11:07:39.325475Z"
+  },
+  "cdsOrderPreference": [
+    "NSP1",
+    "NSP2",
+    "NSP3",
+    "NSP4",
+    "NSP5",
+    "NSP6",
+    "NSP7",
+    "NSP8",
+    "NSP9",
+    "NSP10",
+    "NSP11",
+    "NSP12",
+    "NSP13",
+    "NSP14",
+    "NSP15",
+    "NSP16",
+    "S",
+    "ORF3",
+    "ORF4a",
+    "ORF4b",
+    "ORF5",
+    "E",
+    "M",
+    "N",
+    "ORF8b"
+  ],
+  "defaultCds": "S",
+  "qc": {
+    "missingData": {
+      "enabled": true,
+      "missingDataThreshold": 3000,
+      "scoreBias": 300
+    },
+    "mixedSites": {
+      "enabled": true,
+      "mixedSitesThreshold": 5
+    },
+    "snpClusters": {
+      "enabled": true,
+      "windowSize": 100,
+      "clusterCutOff": 6,
+      "scoreWeight": 50
+    },
+    "privateMutations": {
+      "enabled": true,
+      "typical": 12,
+      "cutoff": 30
+    }
+  }
+}

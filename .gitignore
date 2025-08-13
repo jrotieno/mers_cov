@@ -1,0 +1,10 @@
+.DS_Store
+__pycache__/
+*.pyc
+out/
+tmp/
+*.nextclade.csv
+*.nextclade.tsv
+*.zip
+.vscode/
+.idea/

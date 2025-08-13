@@ -1,0 +1,31 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region NC_019843.3 1 30119
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1335626
+NC_019843.3	RefSeq	region	1	30119	.	+	.	ID=NC_019843.3:1..30119;Dbxref=taxon:1335626;collection-date=13-Jun-2012;gb-acronym=MERS-CoV;gbkey=Src;genome=genomic;isolate=HCoV-EMC/2012;mol_type=genomic RNA;nat-host=Homo sapiens;old-name=Middle East respiratory syndrome coronavirus;strain=HCoV-EMC
+NC_019843.3	RefSeq	CDS	279	857	.	+	0	Name=NSP1;gbkey=Prot;product=nsp1 protein;protein_id=YP_009047213.1;ID=id-YP_009047202.1:1..193
+NC_019843.3	RefSeq	CDS	858	2837	.	+	0	Name=NSP2;gbkey=Prot;product=nsp2 protein;protein_id=YP_009047214.1;ID=id-YP_009047202.1:194..853
+NC_019843.3	RefSeq	CDS	2838	8498	.	+	0	Name=NSP3;gbkey=Prot;product=nsp3 protein;protein_id=YP_009047215.1;ID=id-YP_009047202.1:854..2740
+NC_019843.3	RefSeq	CDS	8499	10019	.	+	0	Name=NSP4;gbkey=Prot;product=nsp4 protein;protein_id=YP_009047216.1;ID=id-YP_009047202.1:2741..3247
+NC_019843.3	RefSeq	CDS	10020	10937	.	+	0	Name=NSP5;gbkey=Prot;product=nsp5 protein;protein_id=YP_009047217.1;ID=id-YP_009047202.1:3248..3553
+NC_019843.3	RefSeq	CDS	10938	11813	.	+	0	Name=NSP6;gbkey=Prot;product=nsp6 protein;protein_id=YP_009047218.1;ID=id-YP_009047202.1:3554..3845
+NC_019843.3	RefSeq	CDS	11814	12062	.	+	0	Name=NSP7;gbkey=Prot;product=nsp7 protein;protein_id=YP_009047219.1;ID=id-YP_009047202.1:3846..3928
+NC_019843.3	RefSeq	CDS	12063	12659	.	+	0	Name=NSP8;gbkey=Prot;product=nsp8 protein;protein_id=YP_009047220.1;ID=id-YP_009047202.1:3929..4127
+NC_019843.3	RefSeq	CDS	12660	12989	.	+	0	Name=NSP9;gbkey=Prot;product=nsp9 protein;protein_id=YP_009047221.1;ID=id-YP_009047202.1:4128..4237
+NC_019843.3	RefSeq	CDS	12990	13409	.	+	0	Name=NSP10;gbkey=Prot;product=nsp10 protein;protein_id=YP_009047222.1;ID=id-YP_009047202.1:4238..4377
+NC_019843.3	RefSeq	CDS	13410	13433	.	+	0	Name=NSP11;gbkey=Prot;protein_id=YP_009047223.1;ID=id-YP_009047202.1:4378..5310;product=RNA-dependent RNA polymerase
+NC_019843.3	RefSeq	CDS	13433	16207	.	+	0	Name=NSP12;gbkey=Prot;protein_id=YP_009047223.1;ID=id-YP_009047202.1:4378..5310;product=RNA-dependent RNA polymerase
+NC_019843.3	RefSeq	CDS	16208	18001	.	+	0	Name=NSP13;product=Hel;gbkey=Prot;protein_id=YP_009047224.1;ID=id-YP_009047202.1:5311..5908
+NC_019843.3	RefSeq	CDS	18002	19573	.	+	0	Name=NSP14;gbkey=Prot;product=ExoN;protein_id=YP_009047225.1;ID=id-YP_009047202.1:5909..6432
+NC_019843.3	RefSeq	CDS	19574	20602	.	+	0	Name=NSP15;gbkey=Prot;product=NendoU;protein_id=YP_009047226.1;ID=id-YP_009047202.1:6433..6775
+NC_019843.3	RefSeq	CDS	20603	21511	.	+	0	Name=NSP16;gbkey=Prot;protein_id=YP_009047227.1;product=2'-O-methyltransferase;ID=id-YP_009047202.1:6776..7078
+NC_019843.3	RefSeq	CDS	21456	25517	.	+	0	Name=S;gene=S;gbkey=CDS;locus_tag=G128_gp02;product=spike protein;protein_id=YP_009047204.1;ID=cds-YP_009047204.1;Dbxref=GenBank:YP_009047204.1,GeneID:14254594
+NC_019843.3	RefSeq	CDS	25532	25843	.	+	0	Name=ORF3;gbkey=CDS;gene=orf3;locus_tag=G128_gp03;product=NS3 protein;protein_id=YP_009047205.1;ID=cds-YP_009047205.1;Dbxref=GenBank:YP_009047205.1,GeneID:14254595
+NC_019843.3	RefSeq	CDS	25852	26181	.	+	0	Name=ORF4a;gbkey=CDS;gene=orf4a;locus_tag=G128_gp04;product=NS4A protein;protein_id=YP_009047206.1;ID=cds-YP_009047206.1;Dbxref=GenBank:YP_009047206.1,GeneID:14254596
+NC_019843.3	RefSeq	CDS	26093	26833	.	+	0	Name=ORF4b;gbkey=CDS;gene=orf4b;locus_tag=G128_gp05;product=NS4B protein;protein_id=YP_009047207.1;ID=cds-YP_009047207.1;Dbxref=GenBank:YP_009047207.1,GeneID:14254597
+NC_019843.3	RefSeq	CDS	26840	27514	.	+	0	Name=ORF5;gbkey=CDS;gene=orf5;locus_tag=G128_gp06;product=NS5 protein;protein_id=YP_009047208.1;ID=cds-YP_009047208.1;Dbxref=GenBank:YP_009047208.1,GeneID:14254598
+NC_019843.3	RefSeq	CDS	27590	27838	.	+	0	Name=E;gene=E;gbkey=CDS;locus_tag=G128_gp07;protein_id=YP_009047209.1;product=envelope protein;ID=cds-YP_009047209.1;Dbxref=GenBank:YP_009047209.1,GeneID:14254599
+NC_019843.3	RefSeq	CDS	27853	28512	.	+	0	Name=M;gene=M;gbkey=CDS;locus_tag=G128_gp08;protein_id=YP_009047210.1;product=membrane protein;ID=cds-YP_009047210.1;Dbxref=GenBank:YP_009047210.1,GeneID:14254600
+NC_019843.3	RefSeq	CDS	28566	29807	.	+	0	Name=N;gene=N;gbkey=CDS;locus_tag=G128_gp09;protein_id=YP_009047211.1;ID=cds-YP_009047211.1;product=nucleocapsid protein;Dbxref=GenBank:YP_009047211.1,GeneID:14254601
+NC_019843.3	RefSeq	CDS	28762	29100	.	+	0	Name=ORF8b;gbkey=CDS;gene=orf8b;locus_tag=G128_gp10;product=ORF8b protein;protein_id=YP_009047212.1;ID=cds-YP_009047212.1;Dbxref=GenBank:YP_009047212.1,GeneID:19910005

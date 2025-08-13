@@ -1,0 +1,35 @@
+name: CI
+on:
+  push:
+  pull_request:
+
+jobs:
+  dataset-smoke:
+    runs-on: ubuntu-latest
+    if: ${{ hashFiles('data/community/jrotieno/mers-cov/emc-2012/pathogen.json',
+                      'data/community/jrotieno/mers-cov/emc-2012/reference.fasta',
+                      'data/community/jrotieno/mers-cov/emc-2012/genome_annotation.gff3',
+                      'data/community/jrotieno/mers-cov/emc-2012/tree.json') != '' }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install Nextclade CLI
+        run: |
+          curl -fsSL https://github.com/nextstrain/nextclade/releases/latest/download/nextclade-Linux-x86_64 -o nextclade
+          chmod +x nextclade && sudo mv nextclade /usr/local/bin/nextclade
+          nextclade --version
+      - name: Smoke test Nextclade dataset
+        run: |
+          nextclade run \
+            --input-dataset "data/community/jrotieno/mers-cov/emc-2012" \
+            --output-all out \
+            test_data/example.fasta
+
+  auspice-validate:
+    runs-on: ubuntu-latest
+    if: ${{ hashFiles('auspice/mers_cov_nextclade.json') != '' }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Basic Auspice v2 sanity check
+        run: |
+          sudo apt-get update && sudo apt-get install -y jq
+          jq '.version == "v2" and (.tree|type=="object")' "auspice/mers_cov_nextclade.json" | grep true
