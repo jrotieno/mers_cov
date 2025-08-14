@@ -10,7 +10,7 @@
 
 ## Scope of this dataset
 
-This dataset assigns clades to MERS-CoV samples and tree placement nearest `NC_019843.3`.
+This dataset assigns clades to MERS-CoV samples and tree placement relative to `NC_019843.3`.
 
 ## Features
 
