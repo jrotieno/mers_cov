@@ -4,7 +4,7 @@
 | ----------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------  |
 | authors           | [James Richard Otieno](https://jamesrichardotieno.com)                                                                                                            |
 | reference         | `NC_019843.3`                                                                                                                                                     |
-| workflow          | https://nextstrain.org/community/jrotieno/mers_cov/nextclade                                                                                       |
+| workflow          | https://nextstrain.org/community/jrotieno/mers_cov                                                                                       |
 | path              | `nextstrain/community/mers_cov`                                                                                                                                                 |
 | clade definitions |                                                                                                                                                                   |
 
