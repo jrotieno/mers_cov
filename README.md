@@ -3,14 +3,17 @@
 | Key               | Value                                                                                                                                                             |
 | ----------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------  |
 | authors           | [James Richard Otieno](https://jamesrichardotieno.com)                                                                                                            |
+|                      WHO/WHE, EPM, Emerging Threats Diagnostics and Lab Biosafety Team                                                                                                |
 | reference         | `NC_019843.3`                                                                                                                                                     |
 | workflow          | https://nextstrain.org/community/jrotieno/mers_cov                                                                                       |
 | path              | `nextstrain/community/mers_cov`                                                                                                                                                 |
-| clade definitions |                                                                                                                                                                   |
+| clade definitions | A, B and C                                                                                                                                                                  |
 
 ## Scope of this dataset
 
 This dataset assigns clades to MERS-CoV samples and tree placement relative to `NC_019843.3`.
+
+Lineage assignments to come later.
 
 ## Features
 
