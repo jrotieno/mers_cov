@@ -4,8 +4,8 @@
 | ----------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------  |
 | authors           | [James Richard Otieno](https://jamesrichardotieno.com)                                                                                                            |
 | reference         | `NC_019843.3`                                                                                                                                                     |
-| workflow          | https://github.com/nextstrain/mers/tree/main/nextclade                                                                                       |
-| path              | `nextstrain/mers`                                                                                                                                                 |
+| workflow          | https://nextstrain.org/community/jrotieno/mers_cov/nextclade                                                                                       |
+| path              | `nextstrain/community/mers_cov`                                                                                                                                                 |
 | clade definitions |                                                                                                                                                                   |
 
 ## Scope of this dataset
