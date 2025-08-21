@@ -6,7 +6,7 @@
     "reference": "reference.fasta",
     "pathogenJson": "pathogen.json",
     "genomeAnnotation": "genome_annotation.gff3",
-    "treeJson": "tree.json"
+    "treeJson": "mers_cov.json"
   },
   "attributes": {
     "name": "MERS-CoV (EMC/2012 reference)",
