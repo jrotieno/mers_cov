@@ -2,8 +2,7 @@
 
 | Key               | Value                                                                                                                                                             |
 | ----------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------  |
-| authors           | [James Richard Otieno](https://jamesrichardotieno.com)                                                                                                            |
-|                      WHO/WHE, EPM, Emerging Threats Diagnostics and Lab Biosafety Team                                                                                                |
+| authors           | [James Richard Otieno](https://jamesrichardotieno.com) [WHO/WHE, EPM, Emerging Threats Diagnostics and Lab Biosafety Team]                                        |
 | reference         | `NC_019843.3`                                                                                                                                                     |
 | workflow          | https://nextstrain.org/community/jrotieno/mers_cov                                                                                       |
 | path              | `nextstrain/community/mers_cov`                                                                                                                                                 |
